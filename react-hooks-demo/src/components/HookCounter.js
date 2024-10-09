@@ -7,6 +7,7 @@ export const HookCounter = () => {
     <div>
       <span>Hook Count - {count}</span><br /><br />
       <button onClick={() => setCount(count + 1)}>Increment 1</button>
+      <hr /><br />
     </div>
   )
 }

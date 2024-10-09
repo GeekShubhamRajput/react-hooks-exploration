@@ -15,9 +15,10 @@ class CounterClass extends Component{
 
   render(){
     return(
-      <div>
+      <div className='mt-6'>
         <span>Count - {this.state.count}</span><br /><br />
-        <button onClick={this.incrementHandler}>Increment 1</button><br /><br />
+        <button onClick={this.incrementHandler}>Increment 1</button>
+        <hr /><br />
       </div>
     )
   }
