@@ -16,7 +16,7 @@ export const HookCounterFour = () =>{
       <button onClick={addItem}>Add an Item</button>
       <ol>
         {
-          items.map(item => <li key={item.id}>{item.value}</li>)
+          items.map(item => <li key={item.id}>Item {item.value}</li>)
         }
       </ol>
     </div>
