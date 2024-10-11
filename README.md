@@ -7,3 +7,7 @@
 3. useState with previous state
 4. useState with object
 5. useState with array
+6. useEffect Hook
+7. useEffect after render
+8. Conditionally run effects
+9. 
