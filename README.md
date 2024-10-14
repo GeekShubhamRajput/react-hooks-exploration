@@ -10,4 +10,5 @@
 6. useEffect Hook
 7. useEffect after render
 8. Conditionally run effects
-9. 
+9.  Run effects only once
+10. 
