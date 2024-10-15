@@ -12,4 +12,5 @@
 8. Conditionally run effects
 9.  Run effects only once
 10. useEffect with cleanup
-11.
+11. useEffect with incorrect dependency
+

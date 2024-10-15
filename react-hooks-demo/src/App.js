@@ -4,6 +4,7 @@ import { EffectHookCounter } from './components/EffectHookCounter';
 import { EffectHookCounterOne } from "./components/EffectHookCounterOne";
 import { EffectHookTwo } from "./components/EffectHookTwo";
 import { EffectWithCleanUp } from "./components/EffectWithCleanUp";
+import { EffectHookTimer } from "./components/EffectHookTimer"
 import ClassMouse from "./components/ClassMouse";
 
 function App() {
@@ -13,8 +14,9 @@ function App() {
       <EffectHookCounter />
       <EffectHookCounterOne />
       <ClassMouse />
-      <EffectHookTwo /> */}
-      <EffectWithCleanUp />
+      <EffectHookTwo />
+      <EffectWithCleanUp /> */}
+      <EffectHookTimer />
     </div>
   );
 }
