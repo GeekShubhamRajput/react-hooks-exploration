@@ -22,4 +22,13 @@ useEffect(() => {
 }, [serverUrl, roomId]);
 ```
 
-## 
+#### Fetch Data using useEffect
+```javascript
+  useEffect(()=> {
+    axios.get('https://jsonplaceholder.typicode.com/posts')
+    .then(res => {
+      console.log(res.data)
+      setPosts(res.data)
+    }).catch(err => console.log(err))
+  }, [])
+```
