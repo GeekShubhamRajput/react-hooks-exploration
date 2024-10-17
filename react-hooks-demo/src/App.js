@@ -10,6 +10,7 @@ import { FetchPosts } from './components/FetchPosts';
 import { FetchSinglePost } from './components/FetchSinglePost'
 import { FetchSingleRecordOne } from './components/FetchSingleRecordOne'
 import { ComponentF } from './components/ComponentF'
+import { ContextHook } from './components/ContextHook'
 import ClassMouse from "./components/ClassMouse";
 
 export const UserContext = React.createContext()
@@ -30,7 +31,7 @@ function App() {
       <FetchSingleRecordOne /> */}
       <UserContext.Provider value={'Shubham'} >
         <ChannelContext.Provider value={'GeekShubham'}>
-          <ComponentF />
+          <ContextHook />
         </ChannelContext.Provider>
       </UserContext.Provider >
     </div>
