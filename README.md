@@ -15,6 +15,7 @@
 11. useEffect with incorrect dependency
 12. Fetching data with useEffect Part 1
 13. Fetching data with useEffect Part 2
-14.  Fetching data with useEffect Part 3
-
-
+14. Fetching data with useEffect Part 3
+15. useContext Hook Part 1
+16. useContext Hook Part 2
+17. useContext Hook Part 3
