@@ -7,6 +7,7 @@ import { EffectWithCleanUp } from "./components/EffectWithCleanUp";
 import { EffectHookTimer } from "./components/EffectHookTimer"
 import { FetchPosts } from './components/FetchPosts';
 import { FetchSinglePost } from './components/FetchSinglePost'
+import { FetchSingleRecordOne } from './components/FetchSingleRecordOne'
 import ClassMouse from "./components/ClassMouse";
 
 function App() {
@@ -19,8 +20,9 @@ function App() {
       <EffectHookTwo />
       <EffectWithCleanUp />
       <EffectHookTimer />
-      <FetchPosts /> */}
-      <FetchSinglePost />
+      <FetchPosts />
+      <FetchSinglePost /> */}
+      <FetchSingleRecordOne />
     </div>
   );
 }

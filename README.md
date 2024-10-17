@@ -14,5 +14,7 @@
 10. useEffect with cleanup
 11. useEffect with incorrect dependency
 12. Fetching data with useEffect Part 1
-13. 
+13. Fetching data with useEffect Part 2
+14.  Fetching data with useEffect Part 3
+
 
