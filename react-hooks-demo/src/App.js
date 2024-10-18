@@ -12,6 +12,7 @@ import { FetchSingleRecordOne } from './components/FetchSingleRecordOne'
 import { ComponentF } from './components/ComponentF'
 import { ContextHook } from './components/ContextHook'
 import ClassMouse from "./components/ClassMouse";
+import { ReducerCounter } from "./components/ReducerCounter"
 
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
@@ -19,21 +20,7 @@ export const ChannelContext = React.createContext()
 function App() {
   return (
     <div className="App">
-      {/* <ClassCounterOne />
-      <EffectHookCounter />
-      <EffectHookCounterOne />
-      <ClassMouse />
-      <EffectHookTwo />
-      <EffectWithCleanUp />
-      <EffectHookTimer />
-      <FetchPosts />
-      <FetchSinglePost />
-      <FetchSingleRecordOne /> */}
-      <UserContext.Provider value={'Shubham'} >
-        <ChannelContext.Provider value={'GeekShubham'}>
-          <ContextHook />
-        </ChannelContext.Provider>
-      </UserContext.Provider >
+      <ReducerCounter />
     </div>
   );
 }

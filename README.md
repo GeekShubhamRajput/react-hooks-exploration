@@ -19,3 +19,5 @@
 15. useContext Hook Part 1
 16. useContext Hook Part 2
 17. useContext Hook Part 3
+18. useReducer Hook
+19. useReducer (simple state & action)
