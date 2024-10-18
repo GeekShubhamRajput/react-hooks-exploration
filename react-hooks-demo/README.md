@@ -37,4 +37,20 @@ useEffect(() => {
 
 Context provides a way to pass data throgh the component tree without having to pass props down manually at every level.
 
-`const value = useContext(SomeContext)`
+```javascript
+const UserContext = React.createContext(defaultValue)
+
+<UserContext.Provider value="somevalue">
+  <ComponentName />
+</UserContext.Provider>
+```
+
+`const value = useContext(UserContext)`
+
+## useReducer
+
+useReducer is a hook that is used for state management in React.
+useReducer is related to reducer function.
+useReducer(reducer, initialState)
+
+`const [state, dispatch] = useReducer(reducer, { age: 42 });`
