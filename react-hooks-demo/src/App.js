@@ -14,6 +14,7 @@ import { ContextHook } from './components/ContextHook'
 import ClassMouse from "./components/ClassMouse";
 import { ReducerCounter } from "./components/ReducerCounter"
 import { ReducerCounterOne } from "./components/ReducerCounterOne"
+import { MultipleReducer } from "./components/MultipleReducer"
 
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
@@ -21,8 +22,9 @@ export const ChannelContext = React.createContext()
 function App() {
   return (
     <div className="App">
-      {/* <ReducerCounter /> */}
-      <ReducerCounterOne />
+      {/* <ReducerCounter />
+      <ReducerCounterOne /> */}
+      <MultipleReducer />
     </div>
   );
 }
