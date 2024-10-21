@@ -18,6 +18,7 @@ import { MultipleReducer } from "./components/MultipleReducer"
 import { ComponentX } from './components/ComponentX'
 import { ComponentY } from './components/ComponentY'
 import { ComponentZ } from './components/ComponentZ'
+import { EffectHookFetchPost } from './components/EffectHookFetchPost'
 
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
@@ -43,17 +44,18 @@ function App() {
   const [count, dispatch] = useReducer(reducer, initialState)
 
   return (
-    <CountContext.Provider value={{countState: count, countDispatch: dispatch}} >
+    // <CountContext.Provider value={{countState: count, countDispatch: dispatch}} >
       <div className="App">
         {/* <ReducerCounter />
         <ReducerCounterOne />
-        <MultipleReducer /> */}
+        <MultipleReducer />
         <h2>App Count - {count} </h2>
         <ComponentX />
         <ComponentY />
-        <ComponentZ />
+        <ComponentZ /> */}
+        <EffectHookFetchPost />
       </div>
-    </CountContext.Provider>
+    // </CountContext.Provider>
   );
 }
 

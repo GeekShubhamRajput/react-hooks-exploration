@@ -24,4 +24,4 @@
 20. useReducer (complex state & action)
 21. Multiple useReducers
 22. useReducer with useContext
-23. 
+23. Fetching data with useReducer Part 1
