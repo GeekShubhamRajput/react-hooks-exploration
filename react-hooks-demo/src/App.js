@@ -1,5 +1,5 @@
 import './App.css';
-import React from 'react'
+import React, { useReducer } from 'react'
 import ClassCounterOne from './components/ClassCounterOne'
 import { EffectHookCounter } from './components/EffectHookCounter';
 import { EffectHookCounterOne } from "./components/EffectHookCounterOne";
@@ -15,17 +15,45 @@ import ClassMouse from "./components/ClassMouse";
 import { ReducerCounter } from "./components/ReducerCounter"
 import { ReducerCounterOne } from "./components/ReducerCounterOne"
 import { MultipleReducer } from "./components/MultipleReducer"
+import { ComponentX } from './components/ComponentX'
+import { ComponentY } from './components/ComponentY'
+import { ComponentZ } from './components/ComponentZ'
 
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
+export const CountContext = React.createContext()
+
+const initialState = 0
+
+const reducer = (state, action) => {
+  switch(action){
+    case 'increment':
+      return state + 1
+    case 'decrement':
+      return state - 1
+    case 'reset':
+      return initialState
+    default: 
+      return state 
+  }
+}
 
 function App() {
+
+  const [count, dispatch] = useReducer(reducer, initialState)
+
   return (
-    <div className="App">
-      {/* <ReducerCounter />
-      <ReducerCounterOne /> */}
-      <MultipleReducer />
-    </div>
+    <CountContext.Provider value={{countState: count, countDispatch: dispatch}} >
+      <div className="App">
+        {/* <ReducerCounter />
+        <ReducerCounterOne />
+        <MultipleReducer /> */}
+        <h2>App Count - {count} </h2>
+        <ComponentX />
+        <ComponentY />
+        <ComponentZ />
+      </div>
+    </CountContext.Provider>
   );
 }
 

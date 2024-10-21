@@ -51,6 +51,10 @@ const UserContext = React.createContext(defaultValue)
 
 useReducer is a hook that is used for state management in React.
 useReducer is related to reducer function.
+
+`const reducer = (state, action) => {}`
+
 useReducer(reducer, initialState)
 
 `const [state, dispatch] = useReducer(reducer, { age: 42 });`
+
