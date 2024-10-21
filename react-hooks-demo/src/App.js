@@ -19,6 +19,7 @@ import { ComponentX } from './components/ComponentX'
 import { ComponentY } from './components/ComponentY'
 import { ComponentZ } from './components/ComponentZ'
 import { EffectHookFetchPost } from './components/EffectHookFetchPost'
+import { ReducerFetchData } from './components/ReducerFetchData';
 
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
@@ -52,8 +53,9 @@ function App() {
         <h2>App Count - {count} </h2>
         <ComponentX />
         <ComponentY />
-        <ComponentZ /> */}
-        <EffectHookFetchPost />
+        <ComponentZ />
+        <EffectHookFetchPost /> */}
+        <ReducerFetchData />
       </div>
     // </CountContext.Provider>
   );

@@ -25,3 +25,4 @@
 21. Multiple useReducers
 22. useReducer with useContext
 23. Fetching data with useReducer Part 1
+24. Fetching data with useReducer Part 2
