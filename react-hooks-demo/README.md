@@ -58,3 +58,11 @@ useReducer(reducer, initialState)
 
 `const [state, dispatch] = useReducer(reducer, { age: 42 });`
 
+### useState Vs useReducer:
+**1. Simplicity vs Complexity:** useState is simple and best for straightforward state updates, while useReducer is more powerful and suited for managing complex state transitions.
+
+**2. Updates:** With useState, you directly set the new state, whereas with useReducer, you define actions that dictate how the state changes through a reducer.
+
+**3. Scaling:** useState is perfect for smaller components with minimal state. As your application grows and state management becomes more intricate, useReducer offers a more scalable solution.
+
+If your state logic is complex or dependent on multiple actions, go with useReducer. For simpler cases, useState is more than sufficient.
