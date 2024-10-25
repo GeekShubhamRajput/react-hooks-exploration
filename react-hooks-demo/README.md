@@ -66,3 +66,9 @@ useReducer(reducer, initialState)
 **3. Scaling:** useState is perfect for smaller components with minimal state. As your application grows and state management becomes more intricate, useReducer offers a more scalable solution.
 
 If your state logic is complex or dependent on multiple actions, go with useReducer. For simpler cases, useState is more than sufficient.
+
+## useCallback
+
+useCallback is a React Hook that lets you cache a function definition between re-renders.
+
+`const cachedFn = useCallback(fn, dependencies)`

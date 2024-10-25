@@ -27,3 +27,4 @@
 23. Fetching data with useReducer Part 1
 24. Fetching data with useReducer Part 2
 25. useState Vs useReducer
+26. useCallback Hook
