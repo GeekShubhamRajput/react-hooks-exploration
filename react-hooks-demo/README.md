@@ -72,3 +72,8 @@ If your state logic is complex or dependent on multiple actions, go with useRedu
 useCallback is a React Hook that lets you cache a function definition between re-renders.
 
 `const cachedFn = useCallback(fn, dependencies)`
+
+## useMemo
+useMemo is a React Hook that lets you cache the result of a calculation between re-renders.
+
+`const cachedValue = useMemo(calculateValue, dependencies)`
