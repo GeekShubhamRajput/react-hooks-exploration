@@ -22,6 +22,7 @@ import { EffectHookFetchPost } from './components/EffectHookFetchPost'
 import { ReducerFetchData } from './components/ReducerFetchData';
 import { ParentComponent } from './components/ParentComponent';
 import { TwoCounter } from './components/TwoCounter';
+import { RefInputFocus } from './components/RefInputFocus'
 
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
@@ -58,8 +59,9 @@ function App() {
         <ComponentZ />
         <EffectHookFetchPost />
         <ReducerFetchData />
-        <ParentComponent /> */}
-        <TwoCounter />
+        <ParentComponent />
+        <TwoCounter /> */}
+        <RefInputFocus />
       </div>
     // </CountContext.Provider>
   );

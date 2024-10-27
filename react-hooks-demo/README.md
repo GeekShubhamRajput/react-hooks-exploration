@@ -77,3 +77,8 @@ useCallback is a React Hook that lets you cache a function definition between re
 useMemo is a React Hook that lets you cache the result of a calculation between re-renders.
 
 `const cachedValue = useMemo(calculateValue, dependencies)`
+
+## useRef
+useRef is a React Hook that lets you reference a value that’s not needed for rendering.
+
+`const ref = useRef(initialValue)`
