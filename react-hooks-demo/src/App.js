@@ -27,6 +27,8 @@ import ClassTimer from './components/ClassTimer';
 import RefTimer from './components/RefTimer';
 import DocTitleOne from './components/DocTitleOne';
 import DocTitleTwo from './components/DocTitleTwo';
+import CounterOne from './components/CounterOne'
+import CounterTwo from './components/CounterTwo'
 
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
@@ -67,9 +69,11 @@ function App() {
         <TwoCounter />
         <RefInputFocus />
         <ClassTimer />
-        <RefTimer /> */}
+        <RefTimer />
         <DocTitleOne />
-        <DocTitleTwo />
+        <DocTitleTwo /> */}
+        <CounterOne />
+        <CounterTwo />
       </div>
     // </CountContext.Provider>
   );
