@@ -32,3 +32,4 @@
 28. useRef Hook Part 1
 29. useRef Hook Part 2
 30. Custom Hooks
+31. useDocumentTitle Custom Hook
