@@ -29,6 +29,7 @@ import DocTitleOne from './components/DocTitleOne';
 import DocTitleTwo from './components/DocTitleTwo';
 import CounterOne from './components/CounterOne'
 import CounterTwo from './components/CounterTwo'
+import UserForm from './components/UserForm';
 
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
@@ -71,9 +72,10 @@ function App() {
         <ClassTimer />
         <RefTimer />
         <DocTitleOne />
-        <DocTitleTwo /> */}
+        <DocTitleTwo />
         <CounterOne />
-        <CounterTwo />
+        <CounterTwo /> */}
+        <UserForm />
       </div>
     // </CountContext.Provider>
   );

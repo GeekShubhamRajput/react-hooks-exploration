@@ -34,3 +34,4 @@
 30. Custom Hooks
 31. useDocumentTitle Custom Hook
 32. useCounter Custom Hook
+33. useInput Custom Hook
